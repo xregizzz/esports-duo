@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --background-image-gradient: linear-gradient(
+    89.86deg,
+    #9572fc 23.08%,
+    #43e7ad 33.94%,
+    #e1d55d 44.57%
+  );
+
+  --background-image-game-gradient: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.9) 67.08%
+  );
+
+  --default-font-family: "Inter", sans-serif;
+}
